@@ -50,7 +50,7 @@ def allowed_file(filename):
 def index():
     return render_template('index.html')
 
-@app.route('/after/greyscale.jpg', methods=['POST'])
+@app.route('/after', methods=['POST'])
 def after():
     if 'file1' not in request.files:
         flash('No file part')
