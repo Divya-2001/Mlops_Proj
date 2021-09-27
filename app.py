@@ -1,8 +1,7 @@
 from model import filter
-from flask import Flask, flash, request, redirect, url_for, render_template, send_file
+from flask import Flask, flash, request, redirect, render_template, send_file
 import os
 import cv2
-from werkzeug.utils import secure_filename
 from PIL import Image
 import base64
 import io
@@ -36,7 +35,7 @@ def addInList(filteredImage, filterName, idTag):
 
 app = Flask(__name__)
 
-UPLOAD_FOLDER = 'static/uploads/'
+UPLOAD_FOLDER = 'storage/'
 
 app.secret_key = "secret key"
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
