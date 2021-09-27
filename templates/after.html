@@ -436,13 +436,14 @@
         button {
             display: block;
             padding: 10px;
-            margin-top: 10px;
+            margin-top: 20px;
         }
 
         #imageParent {
-            margin-left: 24%;
-            height: 70%;
-            width: 50%;
+            margin-top: -85px;
+            margin-left: 30%;
+            height: 50%;
+            width: 40%;
             margin-bottom: 30%;
         }
 
@@ -467,10 +468,18 @@
 <body onload="autoClicked()">
 
 
+    <h2>
+        <a href="https://www.w3schools.com" style=text-decoration:none> 
+        <img  alt="W3Schools" src="{{ url_for('static', filename='f.png') }}" style="width: 30px; height: 30px;margin-left: 10px;">
+        Filter
+        </a>
+        
+    </h2>
+
     <!-- DOWNLOAD IMAGE START -->
 
     <div id="imageParent">
-        <img src="{{ url_for('static', filename='') }}" alt="filter_image" id="bigFilteredImage" style="max-width: 100%;height:auto; align-content: center;">
+        <img src="{{ url_for('static', filename='') }}" alt="filter_image" id="bigFilteredImage" style="align-content: center;">
         
         <button class="buttonDownload">Download</button>
     </div>
