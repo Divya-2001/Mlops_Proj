@@ -8,7 +8,7 @@
   <h2 align="center"get-filter</h2>
 </p>
 
-    *
+ 
 
 A website featuring different filters applied on an image.
 get-filter website helps user to use different filters on different images and your favourite ones can be downloaded in the form of png/jpg/jfif.
@@ -33,7 +33,9 @@ Pencil image
 ![pencil](https://user-images.githubusercontent.com/60807859/135323480-5231a8e9-1614-4710-a5e3-75650ba96390.png)
 
 
-<img src="https://img.shields.io/badge/-FLASK-brightgreen">
+<img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" /><img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" /><img src="https://img.shields.io/badge/kubernetes-326ce5.svg?&style=for-the-badge&logo=kubernetes&logoColor=white" /><img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white" /><img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" /><img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white" />
+
+
 
 
 
