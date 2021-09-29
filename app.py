@@ -11,7 +11,7 @@ imagesList = []
 
 # Storing Image
 def storeImage(image, filterName):
-    path = f"/root\MLops\Mlpos_Proj\storage\{filterName}.jpg"
+    path = f"/Mlops_Proj/storage/{filterName}.jpg"
     cv2.imwrite(path,image)
 
 # Encoding Image
@@ -28,7 +28,7 @@ def addInList(filteredImage, filterName, idTag):
     # store image....
     storeImage(filteredImage, filterName)
     # encode image ....
-    path = f"/root\MLops\Mlpos_Proj\storage\{filterName}.jpg"
+    path = f"/Mlops_Proj/storage/{filterName}.jpg"
     encoded_img_data = encodeImage(path)
     # add in list ....
     imagesList.append([encoded_img_data.decode('utf-8'), filterName, idTag])
