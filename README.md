@@ -5,10 +5,10 @@
     <img src="https://github.com/Divya-2001/Mlops_Proj/blob/main/static/weblogo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h2 align="center">get-filter/h2>
+  <h2 align="center"get-filter</h2>
 </p>
 
-    ***************************************************get-filter*********************************************************************
+    *
 
 A website featuring different filters applied on an image.
 get-filter website helps user to use different filters on different images and your favourite ones can be downloaded in the form of png/jpg/jfif.
@@ -32,9 +32,8 @@ Summer image
 Pencil image
 ![pencil](https://user-images.githubusercontent.com/60807859/135323480-5231a8e9-1614-4710-a5e3-75650ba96390.png)
 
-Technologies Used:
 
-Technologies I know     
+<img src="https://img.shields.io/badge/-FLASK-brightgreen">
 
 
 
