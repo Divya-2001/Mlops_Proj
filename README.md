@@ -26,6 +26,7 @@ Now you will land on the next page which features different filters and you can 
 <br>
 
 ![WhatsApp Image 2021-09-29 at 9 55 22 PM](https://user-images.githubusercontent.com/60807859/135323067-d9c617f4-227a-46fc-bfac-b0f31ccf2884.jpeg)
+
 <br>
 
 Summer image
