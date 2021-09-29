@@ -1,6 +1,14 @@
-# Mlops_Proj
 
-    **************************************************************************get-filter*********************************************************************************
+
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Best-README-Template</h3>
+</p>
+
+    **************************************************************get-filter****************************************************************************
 
 A website featuring different filters applied on an image.
 get-filter website helps user to use different filters on different images and your favourite ones can be downloaded in the form of png/jpg/jfif.
@@ -26,6 +34,7 @@ Pencil image
 
 Technologies Used:
 
+Technologies I know     
 
 
 
