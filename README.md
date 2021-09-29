@@ -1,14 +1,14 @@
 
 
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/Divya-2001/Mlops_Proj/">
+    <img src="https://github.com/Divya-2001/Mlops_Proj/blob/main/static/weblogo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h2 align="center">get-filter/h2>
 </p>
 
-    **************************************************************get-filter****************************************************************************
+    ***************************************************get-filter*********************************************************************
 
 A website featuring different filters applied on an image.
 get-filter website helps user to use different filters on different images and your favourite ones can be downloaded in the form of png/jpg/jfif.
