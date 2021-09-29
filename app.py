@@ -115,7 +115,6 @@ def after():
         filteredImage = filter.pencilSketch(destination)
         addInList(filteredImage, "Pencil Sketch", 10)
 
-
         # Remove Images ....
         BASE_DIR = os.getcwd()
         dir = os.path.join(BASE_DIR, "storage")

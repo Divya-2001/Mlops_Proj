@@ -101,7 +101,6 @@
                 opacity: 0;
             }
         }
-
         /* DOWNLOAD BUTTON END */
 
 
@@ -436,19 +435,17 @@
         button {
             display: block;
             padding: 10px;
-            margin-top: 20px;
+            margin-top: 10px;
         }
 
         #imageParent {
-            margin-top: -85px;
             margin-left: 30%;
             height: 50%;
             width: 40%;
             margin-bottom: 30%;
-        }
+        }        
 
         /* BIG FILTERS IMAGE END */
-
     </style>
     <script>
 
@@ -468,19 +465,10 @@
 <body onload="autoClicked()">
 
 
-    <h2>
-        <a href="https://www.w3schools.com" style=text-decoration:none> 
-        <img  alt="W3Schools" src="{{ url_for('static', filename='f.png') }}" style="width: 30px; height: 30px;margin-left: 10px;">
-        Filter
-        </a>
-        
-    </h2>
-
     <!-- DOWNLOAD IMAGE START -->
 
     <div id="imageParent">
-        <img src="{{ url_for('static', filename='') }}" alt="filter_image" id="bigFilteredImage" style="align-content: center;">
-        
+        <img src="{{ url_for('static', filename='') }}" alt="filter_image" id="bigFilteredImage" style="align-content: center; margin-bottom: 30px;">
         <button class="buttonDownload">Download</button>
     </div>
 
@@ -524,6 +512,7 @@
                 </label>
             </div>
             {% endfor %}
+
         </section>
     </nav>
 

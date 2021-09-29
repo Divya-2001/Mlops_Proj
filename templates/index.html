@@ -2,15 +2,13 @@
 <html>
 
 <head>
-    <title>How To Make Custom File Upload Button in HTML | CSS & JavaScript</title>
+    <title>Insta Filters</title>
     <link rel="stylesheet" href="style.css">
-</head>
 
-<body>
     <style>
         @import url(https://fonts.googleapis.com/css?family=Lato:400,700,300);
 
-        body {
+        /* body {
             margin: 0;
             padding: 0;
             font-family: "Lato", sans-serif;
@@ -20,46 +18,51 @@
             align-items: center;
             justify-content: center;
             min-height: 100px;
-        }
+        } */
 
         .form {
-            width: 400px;
+            width: 50%;
+            height: 50%;
         }
 
         .file-upload-wrapper {
+            margin-left: 30%;
             position: relative;
-            width: 100%;
-            height: 60 px;
+            width: 40%;
+            height: 50px;
             cursor: pointer;
             margin-bottom: 100px;
+            margin-top: -200px;
         }
 
         .file-upload-wrapper::after {
             content: attr(data-text);
-            font-size: 18px;
+            font-size: 24px;
             position: absolute;
             top: 0;
             left: 0;
-            background: #fff;
+            background: rgb(255, 255, 255);
             padding: 10px 15px;
             display: block;
-            width: calc(100% - 40px);
+            width: calc(100% - 60px);
             pointer-events: none;
             z-index: 20;
-            height: 40px;
+            height: 50px;
             line-height: 40px;
-            color: #999;
+            color: rgb(0, 0, 0);
             border-radius: 5px 10px 10px 5px;
-            font-weight: 300;
+            font-weight: 800;
         }
 
         .file-upload-wrapper::before {
             content: "Upload";
             position: absolute;
             top: 0;
+            font-size: 32px;
             right: 0;
             display: inline-block;
-            height: 60px;
+            width: 100px;
+            height: 70px;
             background: -webkit-linear-gradient(to right, #24C6DC, #514A9D);
             background: linear-gradient(to right, #24C6DC, #514A9D);
             color: #fff;
@@ -81,8 +84,8 @@
 
         .file-upload-wrapper input {
             opacity: 0;
-            /* position: absolute; */
-            position:inherit;
+            position: absolute;
+            position: inherit;
             top: 0;
             right: 0;
             bottom: 0;
@@ -98,26 +101,26 @@
 
         @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
-        * {
+        /* * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
             font-family: 'Poppins', sans-serif;
-        }
+        } */
 
-        html,
+        /* html,
         body {
             display: grid;
             height: 100%;
             place-items: center;
             /* background: #000; */
-            overflow: hidden;
-        }
+        /* overflow: hidden;
+        } */
 
         button {
             position: relative;
-            position: 600px;
-            height: 60px;
+            /* position: 800px; */
+            height: 80px;
             width: 300px;
             margin: 0 35px;
             border-radius: 50px;
@@ -178,19 +181,136 @@
                 background-position: 400%;
             }
         }
+
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font: 400 15px/1.8 "Lato", sans-serif;
+            color: #777;
+        }
+
+        .bgimg-1,
+        .bgimg-2,
+        .bgimg-3 {
+            position: relative;
+            opacity: 1.0;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .bgimg-1 {
+            background-image: url("static/images/x.jpg");
+            min-height: 80%;
+        }
+
+        .bgimg-2 {
+            background-image: url("static/images/y.jpg");
+            min-height: 100%;
+        }
+
+        .bgimg-3 {
+            background-image: url("static/images/z.jpg");
+            min-height: 60%;
+        }
+
+        .bgimg-4 {
+            background-image: url("static/images/d.jpg");
+            min-height: 100%;
+        }
+
+        .caption {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color: #000;
+        }
+
+        .caption span.border {
+            background-color: #111;
+            color: #fff;
+            padding: 18px;
+            font-size: 25px;
+            letter-spacing: 10px;
+        }
+
+        h3 {
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            font: 20px "Lato", sans-serif;
+            color: #111;
+        }
+
+        /* Turn off parallax scrolling for tablets and phones */
+        @media only screen and (max-device-width: 1024px) {
+
+            .bgimg-1,
+            .bgimg-2,
+            .bgimg-3 {
+                background-attachment: scroll;
+            }
+        }
     </style>
+</head>
 
+<body>
 
-    <form action="/after" method="POST" enctype="multipart/form-data">
+    <div class="bgimg-1">
+        <div class="caption">
+            <span class="border">get-filter</span>
+        </div>
+    </div>
+
+    <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+        <h3 style="text-align:center;">Filter Filter Filter...Let's build something Awestruck!</h3>
+
+        <p style="text-align:center;">Make your clicks amazing one's with our exclusive get-filter </p>
+        <p style="text-align: center;">Have a filter and see the new you!! </p>
+    </div>
+
+    <!-- HERE IS THE UPLOAD AND SUBMIT BUTTON START -->
+
+    <div class="bgimg-2">
+        <div class="caption">
+            <form action="/after" method="POST" enctype="multipart/form-data">
         
-        <div class="file-upload-wrapper" data-text="Select your file!">
-            <input name="file1" type="file" class="file-upload-field" value="" id="input">
+                <div class="file-upload-wrapper" data-text="Select your file!">
+                    <input name="file1" type="file" class="file-upload-field" value="" id="input">
+                </div>
+        
+                <div class="buttons" id="submitButton">
+                    <button>Submit</button>
+                </div>
+            </form>
         </div>
+    </div>
 
-        <div class="buttons" id="submitButton">
-            <button>Submit</button>
+    <!-- HERE IS THE UPLOAD AND SUBMIT BUTTON END -->
+
+    <div style="position:relative;">
+        <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+            <p><h1>Express yourself with the world's best filter...</h1></p>
         </div>
-    </form>
+    </div>
+
+    <div class="bgimg-3">
+        <div class="caption">
+            <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">The best time to start your creativity is just right now.</span>
+        </div>
+    </div>
+
+    <div style="position:relative;">
+        <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+            <p style="text-align: center;">Best filters' app with customizable filters</p>
+        </div>
+    </div>
+
+    
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="main.js"></script>
@@ -203,4 +323,4 @@
     </script>
 </body>
 
-</html> 
+</html>
