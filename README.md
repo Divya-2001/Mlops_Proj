@@ -5,45 +5,39 @@
     <img src="https://github.com/Divya-2001/Mlops_Proj/blob/main/static/weblogo.png" alt="Logo" width="80" height="80">
   </a>
 
-  
+  <h2 align="center"get-filter</h2>
 </p>
 
- 
 
 A website featuring different filters applied on an image.
 get-filter website helps user to use different filters on different images and your favourite ones can be downloaded in the form of png/jpg/jfif.
-<br>
 
-![WhatsApp Image 2021-09-29 at 9 54 26 PM](https://user-images.githubusercontent.com/60807859/135322377-85e6229e-4744-4da7-a708-1a1f040edfa0.jpeg)
 
-<br>
-<h2>How to use the website:</h2>
-<br>
+![firstpage](https://user-images.githubusercontent.com/60807859/135383457-114b8440-d62e-456b-9cd9-684ab54d86ec.jpeg)
+
+How to use the website:
 First scroll down and upload a photo of your choice then click on the submit button. 
-<br>
-![WhatsApp Image 2021-09-29 at 9 54 56 PM](https://user-images.githubusercontent.com/60807859/135322698-4ad7663a-f5b5-4111-9492-5c71905db6a3.jpeg)
-<br>
+
+
+![submit](https://user-images.githubusercontent.com/60807859/135383550-15b7044a-6a27-46ca-b2a0-a31cc427a386.jpeg)
+
 Now you will land on the next page which features different filters and you can also download your favourie ones.
-<br>
 
-![WhatsApp Image 2021-09-29 at 9 55 22 PM](https://user-images.githubusercontent.com/60807859/135323067-d9c617f4-227a-46fc-bfac-b0f31ccf2884.jpeg)
 
-<br>
+
+
+![secondpage](https://user-images.githubusercontent.com/60807859/135383809-0dfff98a-dae8-4f71-a51c-eceda25c58cc.jpeg)
 
 Summer image
-<br>
-![summer](https://user-images.githubusercontent.com/60807859/135323392-e6b4b8d6-9df7-418b-b909-69ad886b83a2.png)
-<br>
+
+![fitersummer](https://user-images.githubusercontent.com/60807859/135383860-ba464608-14b1-4cb6-b5a3-0c033426e98e.jpeg)
+
 Pencil image
-<br>
-![pencil](https://user-images.githubusercontent.com/60807859/135323480-5231a8e9-1614-4710-a5e3-75650ba96390.png)
-<br>
 
-<h2>Technology Stack:</h2>
-<br>
+![pencilfilter](https://user-images.githubusercontent.com/60807859/135383877-366e731e-1610-4e7c-80bc-9353d1eb5030.jpeg)
 
 
-<img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />   &nbsp;&nbsp;       <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" />    &nbsp;&nbsp;      <img src="https://img.shields.io/badge/kubernetes-326ce5.svg?&style=for-the-badge&logo=kubernetes&logoColor=white" />    &nbsp;&nbsp;     <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white" />       &nbsp;&nbsp;   <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />    &nbsp;&nbsp;      <img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white" />
+<img src="https://img.shields.io/badge/-FLASK-brightgreen">
 
 
 
